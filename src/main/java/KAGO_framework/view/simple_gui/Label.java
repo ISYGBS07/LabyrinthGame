@@ -73,7 +73,7 @@ public class Label extends GraphicalObject {
 
     @Override
     public void draw(DrawTool drawTool) {
-        drawTool.setCurrentColor(r, g, b, 255);
+        drawTool.setCurrentColor(this.r, g, b, 255);
         if(getMyImage() != null){
             drawTool.drawImage(getMyImage(),x,y);
         }else {
